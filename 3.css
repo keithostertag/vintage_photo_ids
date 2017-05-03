@@ -1,0 +1,68 @@
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+                      }
+
+body{
+  height: 100vh;
+  width: 100vw;
+    }
+
+#image  {
+  height: inherit;
+  width: inherit;
+  background-color: #777;
+        }
+
+img {
+  display: block;
+  height:400px;
+  background-color: #777;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+/****** a few suggested media query resolutions (width x height)
+mobile portait:   320x480
+mobile landscape: 480x320
+small tablet portrait:  600x800
+small tablet landscape: 800x600
+tablet potrait:   768x1024
+tablet landscape: 1024x768
+***************/
+
+@media only screen and (max-width: 380px)
+     {
+        img {
+          /*display: block;*/
+          height: 200px;
+          background-color: #5E2612;
+          /*margin-right: auto;
+          margin-left: auto;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);*/
+            }
+                    #image  {
+                      /*height: inherit;
+                      width: inherit;*/
+                      background-color: #5E2612;
+                    }
+      }
+@media only screen and (max-width: 680px) and (orientation: landscape) /* for phones in landscape mode) */
+{
+  img {
+    height: 300px;
+    background-color: #aa2612;
+      }
+          #image {
+                background-color: #aa2612;
+                  }
+}
