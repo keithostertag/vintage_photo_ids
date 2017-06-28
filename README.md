@@ -8,4 +8,6 @@ color will also be changed depending on orientation.
 
 There is no text on this page- the user merely clicks/taps on the current image and the next random image displays.
 
+This page uses plain vanilla javascript.
+
 This page can be accessed online at: card16.com/3
