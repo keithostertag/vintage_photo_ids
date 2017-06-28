@@ -22,7 +22,6 @@ var Image = [
 
 
 function showIntro()  {
-
         var ImageText = "<img onclick='showImage()' src = http://card16.com/3/bullseye.png></img>";
         document.getElementById("image").innerHTML = ImageText;
       }
