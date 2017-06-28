@@ -6,4 +6,6 @@ and using Responsive Design to alter the size of the image depending
 on device. When accessed from a phone the image size and background 
 color will also be changed depending on orientation.
 
+There is no text on this page- the user merely clicks/taps on the current image and the next random image displays.
+
 This page can be accessed online at: card16.com/3
